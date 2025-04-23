@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #f7f0df;
+    color: #5a4b2c;
+  }
+  
+  nav {
+    background: none;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-links li {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #5a4b2c;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 40px 20px 0;
+    position: relative;
+  }
+  
+  .name-block .subtitle {
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+  
+  .name-block h1 {
+    font-size: 48px;
+    margin: 10px 0;
+  }
+  
+  .flowers {
+    background: url('file-XgD8d7cj98RPSufrySBo6A') no-repeat center bottom;
+    background-size: cover;
+    height: 200px;
+    margin-top: 20px;
+  }
+  
+  .work-section {
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .work-section h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  
+  .gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .gallery img {
+    width: 200px;
+    border-radius: 10px;
+  }
+  
+  .more-btn {
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #e6dac4;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
